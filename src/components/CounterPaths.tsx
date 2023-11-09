@@ -27,7 +27,6 @@ const CounterPaths: React.FC = () => {
     }
 
     if (X > 0) {
-      console.log({ X });
       countValidPaths(
         X - 1,
         Y,
